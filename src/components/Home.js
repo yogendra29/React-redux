@@ -6,9 +6,6 @@ function Home(props) {
            
             <h1>Home Component</h1>
             <div className="cart-wrapper">
-                <div className="img-wrapper item">
-                    <img src="https://www.fdfproject.com/wp-content/uploads/2018/12/iphone-png.png" />
-                </div>
                 <div className="text-wrapper item">
                     <span>
                         I-Phone
@@ -23,6 +20,11 @@ function Home(props) {
                         ()=>{props.addToCartHandler({pice:1000,name:'i phone 11'})}
                         }>
                         Add To Cart</button>
+                    <button 
+                    onClick={
+                        ()=>{props.addToCartHandler({pice:1000,name:'i phone 11'})}
+                        }>
+                        Remove From Cart</button>
                 </div>
             </div>
         </div>
