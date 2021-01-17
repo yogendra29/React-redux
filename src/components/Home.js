@@ -25,7 +25,7 @@ function Home(props) {
                     onClick={
                         ()=>{props.removeFromCartHandler()}
                         }>
-                        Remove</button>
+                        Remove From Cart</button>
                 </div>
             </div>
         </div>
